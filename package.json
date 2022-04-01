@@ -1,10 +1,11 @@
 {
-  "name": "catstronauts-server-complete",
+  "name": "odyssey-lift-off-cert-server",
   "version": "1.0.0",
   "description": "back-end demo app for Apollo's lift-off course",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index"
+    "start": "node src/index",
+    "dev": "nodemon src/index"
   },
   "dependencies": {
     "apollo-datasource-rest": "^3.5.2",
@@ -15,7 +16,7 @@
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"
   },
-  "author": "Raphael Terrier @R4ph-t",
+  "author": "Cristina Tarantino",
   "license": "MIT",
   "private": true
 }
